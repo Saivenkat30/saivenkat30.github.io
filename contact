@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>CONTACT</title>
+<style>
+              *{
+   margin:0;
+   padding: 0;
+   font-family:sans-serif;
+}
+.hero{
+	position:relative;
+	width:100%;
+	height:100vh;
+	background: #021925cd;
+      }
+      nav{
+	display:flex;
+	width:84%;
+	margin: auto;
+	padding: 20px 0px;
+	align-items:center;
+	justify-content: space-between;
+   }
+
+nav ul li{
+	display:inline-block;
+	list-style:none;
+	margin:10px 20px;
+	}
+    nav ul li a{
+	text-decoration: none;
+	color: #f0f0f0;
+	font-weight:bold;
+	}
+
+nav ul li a:hover{
+	color:rgb(252, 165, 4);
+		 }
+    
+ 
+#insta
+{
+    max-width: 10%;
+    max-height: 10%;
+   transition: transform .1s;
+    position: absolute;
+    top: 36%;
+    left :25%;
+}
+#whatapp
+{
+    max-width: 10%;
+    max-height: 10%;
+    transition: transform .1s;
+    position: absolute;
+    top: 36%;
+    left :39%;
+}
+#linkdin
+{
+    max-width: 22%;
+    max-height: 22%;
+    transition: transform .1s;
+    position: absolute;
+    top: 30%;
+    left :49.9%;
+  
+}
+#git
+{
+    max-width: 15%;
+    max-height: 15%;
+    transition: transform .1s;
+    position: absolute;
+    top: 34%;
+    left :65%;
+
+    
+}
+#insta:hover
+{
+   transform: scale(1.5);
+}
+#whatapp:hover
+{
+    transform: scale(1.5);
+}
+#linkdin:hover
+{
+    transform: scale(1.5);
+}
+#git:hover
+{
+    transform: scale(1.5);
+}
+
+</style>
+</head>
+
+<body>
+  <div class="hero">
+		<nav>
+			<ul>
+			    <li><a href="contact.html">CONTACT</a><li>
+			</ul>
+		</nav>
+    
+            <a  href="https://www.instagram.com/venkat_2430/"><img id="insta" src="instagram.png"></a>
+            <a href="https://wa.me/qr/3SO3CXJPH33ZC1"><img id="whatapp" src="whatsapp.png"</a>
+            <a  href="https://www.linkedin.com/in/yedla-saivenkat-reddy-9b2864302/"><img id="linkdin" src="linkdin.png" ></a>
+            <a  href="https://github.com/Saivenkat30"><img id="git" src="git.png" ></a>
+
+   
+        </div>
+        </body>
+        </html>
